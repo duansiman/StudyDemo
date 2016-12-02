@@ -25,6 +25,10 @@ public class Foo {
         this.value = value;
     }
 
+    public Baz getBaz() {
+        return baz;
+    }
+
     @Override
     public String toString() {
         return Objects.toString(baz) + ", " + year + ", " + value + ", " + Objects.toString(baz2);

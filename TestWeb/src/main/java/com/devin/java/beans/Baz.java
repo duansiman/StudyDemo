@@ -5,8 +5,14 @@ package com.devin.java.beans;
  */
 public class Baz {
 
+    private String name;
+
     @Override
     public String toString() {
-        return "baz";
+        return "baz " + name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

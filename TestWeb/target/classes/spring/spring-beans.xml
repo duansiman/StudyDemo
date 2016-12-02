@@ -12,8 +12,11 @@
             http://www.springframework.org/schema/context/spring-context-3.0.xsd">-->
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
+
 
     <!--构造函数实例化-->
     <bean id="userService" class="com.devin.java.service.UserServiceImpl"/>
@@ -45,10 +48,114 @@
         <constructor-arg type="java.lang.String" value="hello"/>
     </bean>
 
+    <!--c命名空间-->
+    <bean id="foo5" class="com.devin.java.beans.Foo" c:baz-ref="baz" c:year="45" c:value="haha"/>
+
     <bean id="foo3" class="com.devin.java.beans.Foo">
         <!--setter注入-->
         <property name="baz2" ref="baz"/>
     </bean>
 
     <bean id="baz" class="com.devin.java.beans.Baz"/>
+
+    <!--P命名空间-->
+    <bean id="dataSource" class="com.devin.java.jdbc.MyDataSource" p:driverClassName="com.mysql.jdbc.Driver"
+          p:url="jdbc:mysql://localhost:3306/mydb" p:username="root" p:password="123456"/>
+
+    <bean id="prop" class="com.devin.java.jdbc.MyProperties">
+        <!--配置Properties-->
+        <property name="properties">
+            <value>
+                jdbc.driver.className=com.mysql.jdbc.Driver
+                jdbc.url=jdbc:mysql://localhost:3306/mydb
+            </value>
+        </property>
+    </bean>
+
+    <bean id="idref" class="com.devin.java.beans.Idref">
+        <property name="targetName">
+            <!--引用其他bean的id（值是字符串-不是引用），Spring会检查这个id是否存在-->
+            <idref bean="prop"/>
+        </property>
+    </bean>
+
+
+    <bean id="userService3" class="com.devin.java.service.UserProxyService">
+        <property name="target">
+            <!--引用父容器中的bean-->
+            <ref parent="userService3"/>
+        </property>
+    </bean>
+
+    <bean id="foo4" class="com.devin.java.beans.Foo">
+        <property name="baz2">
+            <!--内部bean-->
+            <bean class="com.devin.java.beans.Baz"/>
+        </property>
+    </bean>
+
+
+    <bean id="container" class="com.devin.java.beans.Container">
+        <!--复杂对象配置-->
+        <property name="properties">
+            <props>
+                <prop key="hello">world</prop>
+            </props>
+        </property>
+
+        <property name="list">
+            <list>
+                <value>hello</value>
+            </list>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="key" value="value"/>
+            </map>
+        </property>
+
+        <property name="set">
+            <set>
+                <value>value</value>
+            </set>
+        </property>
+    </bean>
+
+    <bean id="child" parent="container">
+        <property name="properties">
+            <!--集合合并-->
+            <props merge="true">
+                <prop key="hello">123</prop>
+                <prop key="username">devin</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="dataSource2" class="com.devin.java.jdbc.MyDataSource">
+        <!--空字符串-->
+        <property name="driverClassName" value=""/>
+        <!--null值-->
+        <property name="url">
+            <null/>
+        </property>
+    </bean>
+
+    <bean id="foo6" class="com.devin.java.beans.Foo">
+        <constructor-arg name="baz" ref="baz"/>
+        <!--组合属性名称，baz需要有对应getter方法-->
+        <property name="baz.name" value="devin"/>
+    </bean>
+
+    <!--scope="prototype" 非单例bean-->
+    <bean id="user" class="com.devin.java.beans.User" scope="prototype">
+        <property name="username" value="devin"/>
+        <property name="sex" value="男"/>
+    </bean>
+
+    <bean id="manager2" class="com.devin.java.aware.CommandManager2">
+        <lookup-method name="createUser" bean="user"/>
+    </bean>
+
+    <bean id="manager" class="com.devin.java.aware.CommandManager"/>
 </beans>
