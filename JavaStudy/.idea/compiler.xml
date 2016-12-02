@@ -24,14 +24,18 @@
         <processorPath useClasspath="true" />
         <module name="Disruptor" />
         <module name="JDK8" />
-        <module name="Promise" />
+        <module name="log" />
+        <module name="offbynull" />
+        <module name="promise" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.5">
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="Disruptor" target="1.8" />
-      <module name="JavaStudy" target="1.8" />
       <module name="JDK8" target="1.8" />
-      <module name="Promise" target="1.8" />
+      <module name="log" target="1.8" />
+      <module name="offbynull" target="1.8" />
+      <module name="promise" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

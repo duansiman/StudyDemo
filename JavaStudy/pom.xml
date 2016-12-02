@@ -12,6 +12,8 @@
         <module>Promise</module>
         <module>Disruptor</module>
         <module>JDK8</module>
+        <module>offbynull</module>
+        <module>log</module>
     </modules>
 
 
