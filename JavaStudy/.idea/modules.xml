@@ -4,10 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Disruptor/Disruptor.iml" filepath="$PROJECT_DIR$/Disruptor/Disruptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/JDK8/JDK8.iml" filepath="$PROJECT_DIR$/JDK8/JDK8.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/log/log.iml" filepath="$PROJECT_DIR$/log/log.iml" />
       <module fileurl="file://$PROJECT_DIR$/offbynull/offbynull.iml" filepath="$PROJECT_DIR$/offbynull/offbynull.iml" />
       <module fileurl="file://$PROJECT_DIR$/Promise/promise.iml" filepath="$PROJECT_DIR$/Promise/promise.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/JavaStudy.iml" filepath="$PROJECT_DIR$/JavaStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Promise/Promise.iml" filepath="$PROJECT_DIR$/Promise/Promise.iml" />
+>>>>>>> d80ea6109516e422b91ebabd588a228c9c62f8ec
     </modules>
   </component>
 </project>
