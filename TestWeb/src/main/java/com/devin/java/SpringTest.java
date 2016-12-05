@@ -11,6 +11,7 @@ import com.devin.java.jdbc.MyProperties;
 import com.devin.java.service.UserProxyService;
 import com.devin.java.service.UserService;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -21,6 +22,9 @@ public class SpringTest {
     public static void main(String[] args){
         ApplicationContext parent = new ClassPathXmlApplicationContext(new String[]{"spring/spring-parent.xml"});//父容器
         ApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"spring/spring-beans.xml"}, parent);//子容器
+
+        /*注册关闭钩子*/
+        ((AbstractApplicationContext)context).registerShutdownHook();
 
         UserService userService = context.getBean("us", UserService.class);
         System.out.println(userService.getUserName());

@@ -161,4 +161,10 @@
     <bean id="manager" class="com.devin.java.aware.CommandManager"/>
 
     <bean id="command" class="com.devin.java.beans.Command" scope="prototype"/>
+
+    <!--指定生命周期回调方法-->
+    <bean id="liftBean" class="com.devin.java.beans.LiftBean" /><!--init-method="afterPropertiesSet"
+          destroy-method="destroy"-->
+
+    <bean id="testAware" class="com.devin.java.beans.TestAware"/>
 </beans>
