@@ -12,13 +12,10 @@
         <module>Promise</module>
         <module>Disruptor</module>
         <module>JDK8</module>
-<<<<<<< HEAD
         <module>offbynull</module>
         <module>log</module>
-=======
->>>>>>> d80ea6109516e422b91ebabd588a228c9c62f8ec
+        <module>MongoDB</module>
     </modules>
-
 
     <build>
         <plugins>
