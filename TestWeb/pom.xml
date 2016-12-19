@@ -11,6 +11,7 @@
     <modules>
         <module>SpringMvc</module>
         <module>Theme</module>
+        <module>FileUpload</module>
     </modules>
 
     <dependencies>
