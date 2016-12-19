@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.epdc.layout.MarqueeTextView
+        android:id="@+id/textView"
+        android:text="水平滚动文字"
+        android:singleLine="true"
+        android:lines="1"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:gravity="center_vertical"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <CheckedTextView
+        android:text="可以选择的文字"
+        android:padding="20dp"
+        android:checkMark="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

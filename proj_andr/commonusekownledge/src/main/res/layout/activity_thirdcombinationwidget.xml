@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    com.epdc.commonusekownledge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    声明命名空间，其实就声明R.java文件位置
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:epdc="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout">
+
+    <!-- 有命名空间属性 -->
+    <com.epdc.customview.view.ImageViewTextTwo
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="hello world"
+        epdc:iconSrc="@drawable/happy"
+        />
+
+</LinearLayout>

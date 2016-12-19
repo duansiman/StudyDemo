@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 设置了点击事件才有效果 -->
+
+    <item android:drawable="@drawable/btn_begin_p" android:state_pressed="true"/>
+    <!-- 默认值放最后 -->
+    <item android:drawable="@drawable/btn_begin_n"/>
+
+</selector>

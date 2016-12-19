@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.epdc.fragment">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light">
+        <activity
+            android:name="com.epdc.complexlayout.FirstComplexLayoutActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.complexlayout.SecondComplexLayoutActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.customview.FirstCombinationWidgetActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.customview.SecondCombinationWidgetActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.draw2d.Draw2DWidgetActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.draw2d.DrawImageActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.customview.ClockActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".FragmentDetailActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".FragmentActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".FragmentParameterActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".FragmentCallBackActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.actionbar.ActionBarActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"> <!-- android:uiOptions="splitActionBarWhenNarrow" -->
+
+        </activity>
+        <activity
+            android:name="com.epdc.actionbar.ActionBarActionViewActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.epdc.launchMode.ActivityNavigationActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            //测试singleTask
+        </activity>
+        <activity
+            android:name="com.epdc.launchMode.SecondNavActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".FragmentNavigationActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ViewPagerFragmentNavActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.epdc.startsystemactivity.InvokeSystemAppActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.epdc.webview.WebViewActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.epdc.webview.WebViewHtmlActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.epdc.webview.WebViewJsActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.epdc.http.GetOrPostActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.http.HttpUrlConnActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.xml.SaxParseXmlActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.json.JsonActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.startsystemactivity.ContentShareActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.actionbar.ActionBarShareActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.listview.ListViewCacheActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.epdc.asynctack.AsyncTackActivity"
+            android:label="@string/app_name" />
+
+        <provider
+            android:name="com.epdc.provider.CustomContentProvider"
+            android:authorities="com.epdc.fragment" />
+
+        <activity android:name="com.epdc.actionbar.TabNavActivity" />
+        <activity android:name="com.epdc.actionbar.TabNav2Activity" />
+        <activity android:name="com.epdc.actionbar.TabNav3Activity" />
+        <activity
+            android:name="com.epdc.system.SystemBarTintActivity"
+            android:theme="@style/AppTheme2"></activity>
+        <activity android:name="com.epdc.drawerLayout.DrawerLayoutActivity">
+        </activity>
+        <activity android:name="com.epdc.indexablelistview.IndexableListViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

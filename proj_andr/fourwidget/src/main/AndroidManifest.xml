@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.epdc.fourwidget">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LaunchAndTransmitDataActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".service.StartServiceActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".SendBroadcastReceiver"
+            android:label="广播"></activity>
+        <activity
+            android:name=".ContentProviderActivity"
+            android:label="Content Provider"></activity>
+        <activity
+            android:name=".IntentAndIntentFilter"
+            android:label="@string/app_name">
+            <intent-filter>
+
+                <!-- 指定intent地址action，但必须还要指定category目录 -->
+                <action android:name="com.epdc.fourwidget.intent.action.Intent" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LaunchActivity"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".MyImageView"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- 如果Intent配置了data，这里也需要配置，否则无法启动 -->
+                <data
+                    android:mimeType="image/*"
+                    android:scheme="file" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".service.TestService" />
+
+        <!-- xml注册广播 -->
+        <!-- <receiver android:name=".TestBroadcastReceiver"></receiver> -->
+        <activity android:name=".SystemBroadcastActivity"></activity>
+
+        <activity android:name=".OneActivityLifeCycle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

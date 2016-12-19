@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator">
+
+    <!--android:shareInterpolator 是否共享一个interpolator-->
+    <scale
+        android:fromXScale="1.0"
+        android:toXScale="0.1"
+        android:fromYScale="1.0"
+        android:toYScale="0.1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fillAfter="true"
+        android:duration="3000"><!--fillAfter 结束后是否保留状态-->
+    </scale>
+
+    <alpha
+        android:fromAlpha="1.0"
+        android:toAlpha="0.05"
+        android:duration="3000"></alpha>
+
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="1800"
+        android:duration="3000"
+        android:pivotY="50%"
+        android:pivotX="50%"/><!--pivotX pivotY 中心点-->
+
+
+
+</set>

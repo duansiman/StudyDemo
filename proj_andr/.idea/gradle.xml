@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/WeiboSdkLib" />
+            <option value="$PROJECT_DIR$/aidlclient" />
+            <option value="$PROJECT_DIR$/aidlserver" />
+            <option value="$PROJECT_DIR$/android5x" />
+            <option value="$PROJECT_DIR$/animation" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/apptest" />
+            <option value="$PROJECT_DIR$/appwidget" />
+            <option value="$PROJECT_DIR$/audiodemo" />
+            <option value="$PROJECT_DIR$/commonlib" />
+            <option value="$PROJECT_DIR$/commonusekownledge" />
+            <option value="$PROJECT_DIR$/commonusewidget" />
+            <option value="$PROJECT_DIR$/dailynote" />
+            <option value="$PROJECT_DIR$/fourwidget" />
+            <option value="$PROJECT_DIR$/gesture" />
+            <option value="$PROJECT_DIR$/invokecontentprovider" />
+            <option value="$PROJECT_DIR$/ipc" />
+            <option value="$PROJECT_DIR$/layout" />
+            <option value="$PROJECT_DIR$/livewallpaper" />
+            <option value="$PROJECT_DIR$/media" />
+            <option value="$PROJECT_DIR$/notification" />
+            <option value="$PROJECT_DIR$/otherapp" />
+            <option value="$PROJECT_DIR$/popupwindow" />
+            <option value="$PROJECT_DIR$/pression" />
+            <option value="$PROJECT_DIR$/qunyingchuan" />
+            <option value="$PROJECT_DIR$/recordervoice" />
+            <option value="$PROJECT_DIR$/resource" />
+            <option value="$PROJECT_DIR$/screenadapter" />
+            <option value="$PROJECT_DIR$/sharedpreferences" />
+            <option value="$PROJECT_DIR$/shortcut" />
+            <option value="$PROJECT_DIR$/surface" />
+            <option value="$PROJECT_DIR$/system" />
+            <option value="$PROJECT_DIR$/systeminfo" />
+            <option value="$PROJECT_DIR$/systemtools" />
+            <option value="$PROJECT_DIR$/toast" />
+            <option value="$PROJECT_DIR$/touch" />
+            <option value="$PROJECT_DIR$/webservice" />
+            <option value="$PROJECT_DIR$/webviewdemo" />
+            <option value="$PROJECT_DIR$/weibo" />
+            <option value="$PROJECT_DIR$/zoomimageview" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

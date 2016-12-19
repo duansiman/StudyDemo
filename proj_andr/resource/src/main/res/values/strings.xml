@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Resource</string>
+
+    <string name="color_f00">#f00</string>
+    <string name="color_000">#000</string>
+    <string name="color_0f0">#0f0</string>
+    <string name="color_0ff">#0ff</string>
+    <string name="color_00f">#00f</string>
+    <string name="color_ff0">#ff0</string>
+    <string name="color_fff">#fff</string>
+    <string name="color_f0f">#f0f</string>
+    <string name="color_eee">#eee</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放音乐"
+        android:id="@+id/btnPlay"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="增大音量"
+        android:id="@+id/btnAdd"
+        android:layout_below="@+id/btnPlay"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="减少音量"
+        android:id="@+id/btnReduce"
+        android:layout_below="@+id/btnPlay"
+        android:layout_alignRight="@+id/btnPlay"
+        android:layout_alignEnd="@+id/btnPlay" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正常"
+        android:id="@+id/btnNormal"
+        android:layout_below="@+id/btnPlay"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="静音"
+        android:id="@+id/togAudio"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/btnReduce"
+        android:layout_alignLeft="@+id/btnReduce"
+        android:layout_alignStart="@+id/btnReduce"
+        android:checked="false" />
+</RelativeLayout>

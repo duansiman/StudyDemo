@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WeiboSdkLib/WeiboSdkLib.iml" filepath="$PROJECT_DIR$/WeiboSdkLib/WeiboSdkLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlserver/aidlserver.iml" filepath="$PROJECT_DIR$/aidlserver/aidlserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android5x/android5x.iml" filepath="$PROJECT_DIR$/android5x/android5x.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animation/animation.iml" filepath="$PROJECT_DIR$/animation/animation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apptest/apptest.iml" filepath="$PROJECT_DIR$/apptest/apptest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appwidget/appwidget.iml" filepath="$PROJECT_DIR$/appwidget/appwidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/audiodemo/audiodemo.iml" filepath="$PROJECT_DIR$/audiodemo/audiodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonlib/commonlib.iml" filepath="$PROJECT_DIR$/commonlib/commonlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonusekownledge/commonusekownledge.iml" filepath="$PROJECT_DIR$/commonusekownledge/commonusekownledge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonusewidget/commonusewidget.iml" filepath="$PROJECT_DIR$/commonusewidget/commonusewidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dailynote/dailynote.iml" filepath="$PROJECT_DIR$/dailynote/dailynote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fourwidget/fourwidget.iml" filepath="$PROJECT_DIR$/fourwidget/fourwidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gesture/gesture.iml" filepath="$PROJECT_DIR$/gesture/gesture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/invokecontentprovider/invokecontentprovider.iml" filepath="$PROJECT_DIR$/invokecontentprovider/invokecontentprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ipc/ipc.iml" filepath="$PROJECT_DIR$/ipc/ipc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layout/layout.iml" filepath="$PROJECT_DIR$/layout/layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livewallpaper/livewallpaper.iml" filepath="$PROJECT_DIR$/livewallpaper/livewallpaper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/media/media.iml" filepath="$PROJECT_DIR$/media/media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notification/notification.iml" filepath="$PROJECT_DIR$/notification/notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otherapp/otherapp.iml" filepath="$PROJECT_DIR$/otherapp/otherapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/popupwindow/popupwindow.iml" filepath="$PROJECT_DIR$/popupwindow/popupwindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pression/pression.iml" filepath="$PROJECT_DIR$/pression/pression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proj_andr.iml" filepath="$PROJECT_DIR$/proj_andr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qunyingchuan/qunyingchuan.iml" filepath="$PROJECT_DIR$/qunyingchuan/qunyingchuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recordervoice/recordervoice.iml" filepath="$PROJECT_DIR$/recordervoice/recordervoice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource/resource.iml" filepath="$PROJECT_DIR$/resource/resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenadapter/screenadapter.iml" filepath="$PROJECT_DIR$/screenadapter/screenadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" filepath="$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shortcut/shortcut.iml" filepath="$PROJECT_DIR$/shortcut/shortcut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/surface/surface.iml" filepath="$PROJECT_DIR$/surface/surface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system/system.iml" filepath="$PROJECT_DIR$/system/system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/systeminfo/systeminfo.iml" filepath="$PROJECT_DIR$/systeminfo/systeminfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/systemtools/systemtools.iml" filepath="$PROJECT_DIR$/systemtools/systemtools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toast/toast.iml" filepath="$PROJECT_DIR$/toast/toast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/touch/touch.iml" filepath="$PROJECT_DIR$/touch/touch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice/webservice.iml" filepath="$PROJECT_DIR$/webservice/webservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webviewdemo/webviewdemo.iml" filepath="$PROJECT_DIR$/webviewdemo/webviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weibo/weibo.iml" filepath="$PROJECT_DIR$/weibo/weibo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zoomimageview/zoomimageview.iml" filepath="$PROJECT_DIR$/zoomimageview/zoomimageview.iml" />
+    </modules>
+  </component>
+</project>

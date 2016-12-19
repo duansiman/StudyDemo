@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weibo</string>
+
+    <string name="text_login">登 录</string>
+    <string name="title_auth_tip">授权提示</string>
+    <string name="text_auth_msg">第一次登录需要使用您的新浪微博账号进行授权</string>
+    <string name="title_activity_auth">AuthActivity</string>
+</resources>

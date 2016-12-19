@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+    <EditText
+        android:id="@+id/txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="5"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+        <Button
+            android:id="@+id/speech"
+            android:onClick="speech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="朗读"
+            />
+        <Button
+            android:id="@+id/record"
+            android:onClick="record"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记录声音"
+            />
+    </LinearLayout>
+</LinearLayout>

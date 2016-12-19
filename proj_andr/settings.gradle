@@ -1,0 +1,5 @@
+include ':app', ':fourwidget', ':layout', ':commonusewidget', ':commonusekownledge', ':aidlserver', ':aidlclient', ':recordervoice', ':livewallpaper', ':shortcut', ':appwidget', ':qunyingchuan', ':systeminfo', ':commonlib', ':systemtools', ':android5x', ':dailynote', ':ipc', ':animation',
+        ':invokecontentprovider', ':invokecontentprovider', ':toast', ':notification',
+        ':touch', ':surface', ':sharedpreferences', ':webservice', ':resource', ':weibo',
+        ':WeiboSdkLib', ':popupwindow', ':otherapp', ':webviewdemo', ':zoomimageview',
+        ':screenadapter', ':audiodemo', ':apptest', ':pression', ':gesture', ':media', ':system'
