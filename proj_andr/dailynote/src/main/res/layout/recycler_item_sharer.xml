@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:padding="10dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<ImageView
+    android:id="@+id/image_head"
+    android:src="@drawable/perm_group_personal_info"
+    android:layout_width="@dimen/head_img_size_item"
+    android:layout_height="@dimen/head_img_size_item" />
+
+<TextView
+    android:text="测试"
+    android:id="@+id/text_name"
+    android:layout_marginLeft="10dp"
+    android:textSize="@dimen/FontSize20"
+    android:gravity="center_vertical"
+    android:layout_toRightOf="@id/image_head"
+    android:layout_alignTop="@id/image_head"
+    android:layout_alignBottom="@id/image_head"
+    android:layout_centerVertical="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+</RelativeLayout>

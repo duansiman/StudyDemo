@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="100dp"
+    android:minHeight="40dp"
+    android:updatePeriodMillis="1000"
+    android:initialLayout="@layout/layout_clock"
+    />
+
+<!--
+    updatePeriodMillis 更新频率
+    initialLayout 初始化显示的布局
+-->

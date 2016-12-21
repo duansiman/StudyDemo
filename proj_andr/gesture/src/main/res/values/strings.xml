@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gesture</string>
+    <string name="title_activity_recognise_gesture">RecogniseGestureActivity</string>
+</resources>

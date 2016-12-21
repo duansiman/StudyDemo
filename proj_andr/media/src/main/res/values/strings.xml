@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Media</string>
+    <string name="title_activity_screen_projection">ScreenProjectionActivity</string>
+    <string name="title_activity_video">VideoActivity</string>
+</resources>

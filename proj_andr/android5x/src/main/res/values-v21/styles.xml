@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme" parent="@android:style/Theme.Material">
+        <!-- Customize your theme here. -->
+        <!--标题栏的颜色-->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <!--状态栏的颜色-->
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--指定一些控件的默认颜色-->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <!--标题栏字体颜色-->
+        <item name="android:textColorPrimary">@color/red</item>
+        <!--窗体的背景颜色-->
+        <item name="android:windowBackground" >@color/green</item>
+        <!--导航栏的颜色-->
+        <item name="android:navigationBarColor">@color/colorAccent</item>
+    </style>
+
+</resources>

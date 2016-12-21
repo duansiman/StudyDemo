@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products>
+    <product>
+        <name>橘子</name>
+        <type>南方</type>
+    </product>
+    <product>
+        <name>橘子</name>
+        <type>北方</type>
+    </product>
+    <product>
+        <name>苹果</name>
+        <type>青色</type>
+    </product>
+    <product>
+        <name>苹果</name>
+        <type>红色</type>
+    </product>
+</products>

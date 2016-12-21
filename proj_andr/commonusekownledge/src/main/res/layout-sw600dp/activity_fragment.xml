@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!-- layout-sw600dp目录：表示当运行改程序的设备，宽度大于等于600dp时，加载改布局文件 -->
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.epdc.fragment.fragment.LeftFragment"
+        android:layout_weight="4"
+        android:id="@+id/fragmentLeft"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.epdc.fragment.fragment.RightFragment"
+        android:layout_weight="1"
+        android:id="@+id/fragmentRight"/>
+</LinearLayout>
