@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<bean name="accountExporter" class="org.springframework.remoting.caucho.HessianServiceExporter">
+        <property name="service" ref="accountService"/>
+        <property name="serviceInterface" value="example.AccountService"/>
+    </bean>
+
+    <bean id="accountService" class="com.devin.java.remote.AccountServiceImpl">
+        &lt;!&ndash; any additional properties, maybe a DAO? &ndash;&gt;
+    </bean>-->
+
+    <bean id="accountService" class="com.devin.java.remote.AccountServiceImpl">
+        <!-- any additional properties, maybe a DAO? -->
+    </bean>
+
+    <bean name="accountExporter" class="org.springframework.remoting.httpinvoker.HttpInvokerServiceExporter">
+        <property name="service" ref="accountService"/>
+        <property name="serviceInterface" value="com.devin.java.remote.AccountService"/>
+    </bean>
+
+</beans>
