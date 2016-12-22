@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;EvenGenerator.java&apos; to &apos;Concurrent/src/com.epdc.resource&apos;&#x0D;&#x0A;- Original project: &apos;Concurrent&apos;&#x0D;&#x0A;- Destination element: &apos;Concurrent/src/com.epdc.resource&apos;&#x0D;&#x0A;- Original element: &apos;com.epdc.resource.EvenGenerator.java&apos;" description="Copy compilation unit" destination="/src&lt;com.epdc.resource" element1="/src&lt;com.epdc.resource{EvenGenerator.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1468132953634" units="1" version="1.0"/>
-</session>
