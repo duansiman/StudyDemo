@@ -12,6 +12,7 @@
         <module>SpringMvc</module>
         <module>Theme</module>
         <module>FileUpload</module>
+        <module>HandlerException</module>
     </modules>
 
     <dependencies>
