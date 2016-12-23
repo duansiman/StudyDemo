@@ -6,7 +6,7 @@
     <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
         <property name="host" value="smtp.163.com"/>
         <property name="username" value="epdcsiman@163.com"/>
-        <property name="password" value="EpDc150960"/>
+        <property name="password" value="*****"/>
     </bean>
 
     <!-- 这是一个可以预加载默认状态的模板信息 -->
