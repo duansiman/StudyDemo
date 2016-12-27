@@ -15,9 +15,9 @@ public class TestEmail {
     public static void main(String[] args) throws MessagingException {
 
         JavaMailSenderImpl sender = new JavaMailSenderImpl();
-        sender.setHost("smtp.exmail.qq.com");
+        sender.setHost("smtp.qq.com");
         sender.setUsername("835804205@qq.com");
-        sender.setPassword("EpDc0925");
+        sender.setPassword("*******");
         Properties prop = new Properties();
         prop.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
         prop.setProperty("mail.smtp.port", "465");
