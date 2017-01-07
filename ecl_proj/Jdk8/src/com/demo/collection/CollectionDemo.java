@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class CollectionDemo {
 
@@ -51,7 +52,11 @@ public class CollectionDemo {
 		
 		//聚集方法，每一次只能调用一个,否则stream has already been operated upon or closed
 		System.out.println(is.max().getAsInt());
-		System.out.println(is.min().getAsInt());
+//		System.out.println(is.min().getAsInt());
+		
+		IntStream intStream =  IntStream.range(0,  10);
+//		intStream.forEach((e)->System.out.println(e));
+		intStream.mapToObj((e)->e+"1").forEach((e)->System.out.println(e));
 	}
 	
 }

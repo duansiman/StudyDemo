@@ -30,6 +30,8 @@
         <module>RESTfulClient</module>
         <module>EJB</module>
         <module>Email</module>
+        <module>Task</module>
+        <module>DynamicLanguageSupport</module>
     </modules>
 
     <dependencies>

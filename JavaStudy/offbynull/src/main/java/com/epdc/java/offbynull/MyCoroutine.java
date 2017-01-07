@@ -23,7 +23,7 @@ public final class MyCoroutine implements Coroutine {
 
     public static void main(String[] args) {
         CoroutineRunner r = new CoroutineRunner(new MyCoroutine());
-        new Thread(()-> r.execute());
+//        new Thread(()-> r.execute());
         System.out.println("exec ");
         r.execute();//如果没有执行，继续执行
         r.execute();
