@@ -6,9 +6,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>Validator</artifactId>
+    <artifactId>Cache</artifactId>
     <packaging>war</packaging>
-    <name>Validator Maven Webapp</name>
+    <name>Cache Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -17,13 +17,8 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>4.3.3.RELEASE</version>
-        </dependency>
     </dependencies>
     <build>
-        <finalName>Validator</finalName>
+        <finalName>Cache</finalName>
     </build>
 </project>

@@ -33,6 +33,8 @@
         <module>Task</module>
         <module>DynamicLanguageSupport</module>
         <module>Validator</module>
+        <module>SpEL</module>
+        <module>Cache</module>
     </modules>
 
     <dependencies>
