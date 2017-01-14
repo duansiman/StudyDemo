@@ -11,7 +11,7 @@ public class NativeExceptionHanding implements Runnable {
 		throw new RuntimeException();
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		// TODO Auto-generated method stub
 
 		/**

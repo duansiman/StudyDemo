@@ -35,6 +35,7 @@
         <module>Validator</module>
         <module>SpEL</module>
         <module>Cache</module>
+        <module>Resources</module>
     </modules>
 
     <dependencies>

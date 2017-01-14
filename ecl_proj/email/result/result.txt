@@ -1,0 +1,68 @@
+Message-ID: <15959960.1388750178766.JavaMail.Administrator@smtp.163.com>
+From: =?GBK?B?tKvWx7Klv80=?= <epdcsiman@163.com>
+Reply-To: lili@163.com
+To: 835804205@qq.com, epdcsiman@163.com
+Subject: =?GBK?B?uLTU09PKvP4=?=
+Mime-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Part_0_1333195.1388750178510"
+
+------=_Part_0_1333195.1388750178510
+Content-Type: multipart/related; 
+	boundary="----=_Part_1_10840700.1388750178553"
+
+------=_Part_1_10840700.1388750178553
+Content-Type: text/html;charset=gbk
+Content-Transfer-Encoding: quoted-printable
+
+=BA=C7=BA=C7 <img src=3D'http://www.baidu.com/happy.jpg'>
+------=_Part_1_10840700.1388750178553
+Content-Type: image/jpeg; name=happy.jpg
+Content-Transfer-Encoding: base64
+Content-Location: image/happy.jpg
+Content-Disposition: attachment; filename=happy.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
+CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAA6ADoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD7ilR9
+OY2toxtraE+XFDCdiIo4AAHA4FVZru87XU3/AH8P+Na9/Hm6nGP42/nVKS3wp4qbKKJjrsZc19eA
+f8fc4/7aN/jWBBrty+q3cS6hOxQjKiZuOAfX3rorlNqk4zivDfB3xA0jxB8TfFVpYXPmva3Rgk9N
+6qobHryDXO5JNHZTp1XFuMbrq+3r8z1x9UviMi8uP+/rf41C2p3wBIvbj/v63+NRpIu3OR60pUMu
+QSc1egmrEE2q3/8Az+3I/wC2rf41SOqX+f8Aj+uP+/rf41YuUxyOKz8ewqWjeNmj2a+h/wBJmP8A
+tn+dZl7mCB5ApbaCdqjk+wroriHfNJx/Ef51nXduGBzW72PNptXufFvxa/bZHh2XUtD07wvqNvrQ
+LQRPfgIFY8K20ZJ5wcV86fCvUPG/hnXdVgtUt7e8sZGu7prnqxk9SD8xNfVH7a3w6sPFNn4biiEN
+lqf2mSZr7A3iNUPyjucsV+mDXx3rVn4t+HniKy1zVUubrTXUQT3kYJDoR0Jx1H9K+Nxs60qzhGV7
+a6dD93yZ5asA5UaUedraTbu1tbbTyPpf4E+O/iD448T3f9tyxf2dGAAkagbfckd/avp2KP8AcjPP
+HavD/wBlaWy1PwNHNZDzA7s5lYfM+T1Oa948spEfXHSvpsNCXso3d2fk+Z1/bYqc3BR6WSsl8jJv
+SFU84rILjPetDV3KqcCuca5O481q3Y4YrQ+nriACVyOpJqjPDxyOa1Zzl3HoxqpKmRXbbQ8SMrM8
+T+IvhrTNe+KfhaK7tYrqeKzupCHG4qm6MDj0Jz+VbuseBdK1nTXsb6wgubR12tDJGCpH0re8T20F
+p4x0G4EarNPBNA0mOSPlZRn860ZoQVPY1xQUZOVl1PXdefuK+y0+88Z+GXh3QPDsNzY6DbLa20Ms
+ieWgICkOwIGfcV29wAI24rzXwffXul+O/EGkzWhgijv53jnZgRKjsXBXHYbwPqK7zUbwRoeaqDTi
+dGJj++et+t/UwdafaG6VyrTHcenWtLW9RB3c1yjagNx+tc85O44Quj7ImYb2+pqB8H3pJj85/Gom
+6V7bWh8zHc4z4k3K2eoeHbjPEdzyc9iQD/Ot5wvls/YAk1xvxl4s9KPfz/610t3/AMgu5/64N/6D
+XiUpNSqeT/Q9Vr3If11PDrC6N/4/ub/na8bFQe3zGtvWL/72TXPaLxrTf9c/61c1z7jVOF1pJs7K
+j/eHLa5fH5vmrmTdtnr+laesf62udPU1MtzoWiP/2Q==
+------=_Part_1_10840700.1388750178553--
+
+------=_Part_0_1333195.1388750178510
+Content-Type: text/plain; name="=?GBK?Q?attach1=D6=D0=CE=C4.txt?="; 
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; 
+	filename="=?GBK?Q?attach1=D6=D0=CE=C4.txt?="
+
+attach1
+------=_Part_0_1333195.1388750178510
+Content-Type: text/plain; name=attach2.txt; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=attach2.txt
+
+attach2
+------=_Part_0_1333195.1388750178510--

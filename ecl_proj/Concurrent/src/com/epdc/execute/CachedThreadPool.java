@@ -19,7 +19,7 @@ public class CachedThreadPool {
 		
 		//newCachedThreadPool 为每个任务创建一个线程
 		ExecutorService exec = Executors.newCachedThreadPool();
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 5; i++) { 
 			exec.execute(new LiftOff());
 		}
 		

@@ -1,0 +1,77 @@
+Date: Fri, 3 Jan 2014 21:31:07 +0800
+From: "epdcsiman@163.com" <epdcsiman@163.com>
+To: =?GB2312?B?19S8ulFR08rP5A==?= <835804205@qq.com>
+Subject: =?GB2312?B?1tDOxA==?=
+X-Priority: 3
+X-GUID: 913D3E55-3E4B-44A2-8863-CBF275A1E14F
+X-Has-Attach: yes
+X-Mailer: Foxmail 7, 1, 3, 52[cn]
+Mime-Version: 1.0
+Message-ID: <201401032131070463002@163.com>
+Content-Type: multipart/mixed;
+	boundary="----=_001_NextPart314766712601_=----"
+
+This is a multi-part message in MIME format.
+
+------=_001_NextPart314766712601_=----
+Content-Type: multipart/alternative;
+	boundary="----=_002_NextPart652104240377_=----"
+
+
+------=_002_NextPart652104240377_=----
+Content-Type: text/plain;
+	charset="GB2312"
+Content-Transfer-Encoding: base64
+
+use6xw0KDQoNCg0KDQplcGRjc2ltYW5AMTYzLmNvbQ==
+
+------=_002_NextPart652104240377_=----
+Content-Type: text/html;
+	charset="GB2312"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<STYLE>
+BLOCKQUOTE {
+	MARGIN-BOTTOM: 0px; MARGIN-LEFT: 2em; MARGIN-TOP: 0px
+}
+OL {
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+}
+UL {
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+}
+P {
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+}
+BODY {
+	FONT-SIZE: 10.5pt; FONT-FAMILY: =CE=A2=C8=ED=D1=C5=BA=DA; COLOR: #000000;=
+ LINE-HEIGHT: 1.5
+}
+</STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.16476"></HEAD>
+<BODY style=3D"MARGIN: 10px">
+<DIV>=BA=C7=BA=C7</DIV>
+<DIV>&nbsp;</DIV>
+<HR style=3D"HEIGHT: 1px; WIDTH: 210px" align=3Dleft color=3D#b5c4df SIZE=
+=3D1>
+
+<DIV><SPAN>
+<DIV style=3D"FONT-SIZE: 10pt; FONT-FAMILY: verdana; MARGIN: 10px">
+<DIV>epdcsiman@163.com</DIV></DIV></SPAN></DIV></BODY></HTML>
+
+------=_002_NextPart652104240377_=------
+
+------=_001_NextPart314766712601_=----
+Content-Type: application/octet-stream;
+	name="attach1.txt"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="attach1.txt"
+
+YXR0YWNoMQ==
+
+------=_001_NextPart314766712601_=------

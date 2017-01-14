@@ -12,6 +12,6 @@ public class SettingDefaultHandler {
 		
 		ExecutorService exec = Executors.newCachedThreadPool();
 		exec.execute(new ExceptionThread());
-	}
+	} 
 
 }

@@ -17,7 +17,7 @@ public class SingleThreadExecuor {
 		
 		ExecutorService exec = Executors.newSingleThreadExecutor();
 		
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 5; i++) { 
 			exec.execute(new LiftOff());
 		}
 		
