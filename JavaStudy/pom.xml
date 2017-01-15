@@ -15,6 +15,7 @@
         <module>offbynull</module>
         <module>log</module>
         <module>MongoDB</module>
+        <module>Generics</module>
     </modules>
 
     <build>
