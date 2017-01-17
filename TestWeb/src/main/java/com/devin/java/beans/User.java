@@ -1,5 +1,7 @@
 package com.devin.java.beans;
 
+import org.springframework.beans.factory.annotation.Required;
+
 import java.util.Objects;
 
 /**
@@ -17,6 +19,7 @@ public class User {
         this.sex = sex;
     }
 
+    @Required
     public void setUsername(String username) {
         this.username = username;
     }

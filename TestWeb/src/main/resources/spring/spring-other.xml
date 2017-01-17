@@ -3,10 +3,4 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--构造函数实例化-->
-    <bean id="userService3" class="com.devin.java.service.UserServiceImpl"/>
-
-    <bean id="user" class="com.devin.java.beans.User">
-
-    </bean>
 </beans>

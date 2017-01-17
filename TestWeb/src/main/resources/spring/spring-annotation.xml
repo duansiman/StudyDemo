@@ -15,7 +15,9 @@
 
     <context:annotation-config/>
 
-    <bean id="user" class="com.devin.java.beans.User"/>
+    <bean id="user" class="com.devin.java.beans.User">
+        <property name="username" value=""/>
+    </bean>
 
     <bean id="test" class="com.devin.java.SpringAnnotationTest"/>
 

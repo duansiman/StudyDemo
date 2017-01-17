@@ -18,6 +18,12 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
+    <import resource="spring-mvc.xml"/>
+    <import resource="../spring/spring-mvc.xml"/>
+    <import resource="/spring-mvc.xml"/>    <!-- / 表示当前文件所在目录-->
+    <import resource="classpath:spring/spring-mvc.xml"/>
+    <!--<import resource="${}"/>-->
+
     <!--构造函数实例化-->
     <bean id="userService" class="com.devin.java.service.UserServiceImpl"/>
 
