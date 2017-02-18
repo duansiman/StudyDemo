@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+
+    <!--代替自动代理-->
+    <aop:config>
+        <!--<aop:pointcut id="" expression="execution(* *(*))"></aop:pointcut>-->
+        <aop:advisor id="advisor" advice-ref="performanceInterceptor" pointcut="execution(* *(*))"></aop:advisor>
+        <aop:aspect>
+            <aop:pointcut id="method1" expression="execution(String getPrice(String))"/>
+            <!--<aop:before method="" arg-names="condition"-->
+        </aop:aspect>
+    </aop:config>
+
+    <bean id="performanceInterceptor" class="com.devin.java.aop.advice.PerformanceInterceptor"/>
+
+
+
+
+    <!--自动代理-->
+    <!--<bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator">
+        <property name="proxyTargetClass"><value>true</value></property>
+    </bean>-->
+
+    <!--<aop:aspectj-autoproxy proxy-target-class="true">
+    </aop:aspectj-autoproxy>-->
+
+
+    <bean id="foo" class="com.devin.java.aop.entity.Foo"/>
+
+    <bean id="mockTask" class="com.devin.java.aop.entity.MockTask"/>
+
+    <bean id="performanceTraceAspect" class="com.devin.java.aop.chapter10.PerformanceTraceAspect"/>
+
+    <bean id="pointcutAspect" class="com.devin.java.aop.chapter10.PointcutAspect"/>
+
+    <bean id="adviceAspect" class="com.devin.java.aop.chapter10.AdviceAspect"/>
+
+</beans>

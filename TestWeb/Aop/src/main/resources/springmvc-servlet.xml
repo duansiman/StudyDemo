@@ -15,4 +15,42 @@
     <aop:aspectj-autoproxy/>
 
     <bean id="transfer" class="com.devin.java.aop.bean.TransferImpl"/>
+
+    <bean id="task" class="com.devin.java.aop.entity.MockTask" scope="prototype"/>
+
+    <!--<bean id="introductionInterceptor" class="org.springframework.aop.support.DelegatingIntroductionInterceptor" scope="prototype">
+        <constructor-arg>
+            <bean class="com.devin.java.aop.entity.CounterImpl"/>
+        </constructor-arg>
+    </bean>-->
+
+    <bean id="introductionInterceptor" class="org.springframework.aop.support.DelegatePerTargetObjectIntroductionInterceptor">
+        <constructor-arg index="0">
+            <value>com.devin.java.aop.entity.CounterImpl</value>
+        </constructor-arg>
+        <constructor-arg index="1">
+            <value>com.devin.java.aop.entity.ICounter</value>
+        </constructor-arg>
+    </bean>
+
+    <bean id="introducedTask" class="org.springframework.aop.framework.ProxyFactoryBean" scope="prototype">
+        <!--<property name="targetName">-->
+            <!--<value>task</value>-->
+        <!--</property>-->
+        <property name="target" ref="task"/>
+
+        <property name="proxyInterfaces">
+            <list>
+                <value>com.devin.java.aop.entity.ITask</value>
+                <value>com.devin.java.aop.entity.ICounter</value>
+            </list>
+        </property>
+
+        <property name="interceptorNames">
+            <list>
+                <value>introductionInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
 </beans>

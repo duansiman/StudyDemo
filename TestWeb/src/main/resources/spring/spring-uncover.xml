@@ -4,9 +4,64 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="nextDay" class="com.devin.java.uncover.NextDayDateDisplayer">
-        <property name="dateOfNextDay" ref="factoryBean"/>
+        <property name="dateOfNextDay" ref="factoryBean"/><!--指向FactoryBean对象-->
     </bean>
 
     <bean id="factoryBean" class="com.devin.java.uncover.NextDayDateFactoryBean"/>
+
+    <bean id="postProcessorBean" class="com.devin.java.uncover.PostProcessorBean">
+        <property name="url" value="${jdbc.url}}"/>
+        <property name="driver" value="${jdbc.driver}}"/>
+        <property name="password" value="${jdbc.password}}"/>
+        <property name="username" value="${jdbc.username}}"/>
+    </bean>
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"><!--替换占位符-->
+        <property name="locations">
+            <list>
+                <value>jdbc.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="org.springframework.beans.factory.config.PropertyOverrideConfigurer"><!--替换bean对象属性值-->
+        <property name="location" value="override.properties"/>
+    </bean>
+
+    <bean id="dateBean" class="com.devin.java.uncover.DateBean">
+        <property name="date" value="23/01/2017"/>
+    </bean>
+
+    <bean id="datePropertyEditor" class="com.devin.java.uncover.DatePropertyEditor">
+        <property name="datePattern" value="dd/MM/yyyy"/>
+    </bean>
+
+    <bean id="editorRegistrar" class="com.devin.java.uncover.DatePropertyEditorRegistrar">
+        <property name="propertyEditor" ref="datePropertyEditor"/>
+    </bean>
+
+    <bean id="customEditorConfigurer" class="org.springframework.beans.factory.config.CustomEditorConfigurer"><!--将外部设置值转换为内部JavaBean属性值-->
+        <!--<property name="customEditors">
+            <map>
+                <entry key="java.util.Date">
+                    &lt;!&ndash;<value type="com.devin.java.uncover.DatePropertyEditor" />&ndash;&gt;
+                    &lt;!&ndash;<bean class="com.devin.java.uncover.DatePropertyEditor">
+                        <property name="datePattern" value="dd/MM/yyyy"/>
+                    </bean>&ndash;&gt;
+                    <ref bean="datePropertyEditor"/>
+                </entry>
+
+            </map>
+        </property>-->
+        <property name="propertyEditorRegistrars">
+            <list>
+                <ref bean="editorRegistrar"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="com.devin.java.uncover.PasswordDecodePostProcessor"/><!--BeanPostProcessor 实例化阶段，处理-->
+
+    <bean id="resourceLoaderBean" class="com.devin.java.uncover.ResourceLoaderTest$ResourceLoaderBean"/>
 
 </beans>

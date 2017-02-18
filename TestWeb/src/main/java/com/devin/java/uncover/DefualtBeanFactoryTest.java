@@ -14,7 +14,7 @@ public class DefualtBeanFactoryTest {
 
     public static void main(String[] args) {
 
-        DefaultListableBeanFactory defaultBeanFactory = new DefaultListableBeanFactory();
+        DefaultListableBeanFactory defaultBeanFactory = new DefaultListableBeanFactory();//BeanFactory实现类
 
         AbstractBeanDefinition abstractBeanDefinition = new RootBeanDefinition(Greeting.class);
         defaultBeanFactory.registerBeanDefinition("greeting", abstractBeanDefinition);

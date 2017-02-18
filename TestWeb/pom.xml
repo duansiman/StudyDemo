@@ -36,6 +36,8 @@
         <module>SpEL</module>
         <module>Cache</module>
         <module>Resources</module>
+        <module>ApplicationContext</module>
+        <module>Security</module>
     </modules>
 
     <dependencies>
