@@ -38,6 +38,7 @@
         <module>Resources</module>
         <module>ApplicationContext</module>
         <module>Security</module>
+        <module>Junit</module>
     </modules>
 
     <dependencies>

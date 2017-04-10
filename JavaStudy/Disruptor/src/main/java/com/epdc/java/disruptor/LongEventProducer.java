@@ -19,6 +19,7 @@ public class LongEventProducer
     public void onData(ByteBuffer bb)
     {
         long sequence = ringBuffer.next();  // Grab the next sequence
+        System.out.println("sequence : " + sequence);
         try
         {
             LongEvent event = ringBuffer.get(sequence); // Get the entry in the Disruptor

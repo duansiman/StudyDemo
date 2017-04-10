@@ -25,6 +25,7 @@ public class LongEventMain
 
         // Connect the handler
         disruptor.handleEventsWith((event, sequence, endOfBatch) -> {
+            System.out.println("thread "+Thread.currentThread().getId());
             System.out.println("Event: " + event);
             Thread.sleep(2000);
             System.out.println("end");
@@ -36,11 +37,15 @@ public class LongEventMain
         // Get the ring buffer from the Disruptor to be used for publishing.
         RingBuffer<LongEvent> ringBuffer = disruptor.getRingBuffer();
 
+        LongEventProducer producer = new LongEventProducer(ringBuffer);
+//        LongEventProducerWithTranslator translator = new LongEventProducerWithTranslator(ringBuffer);
+
         ByteBuffer bb = ByteBuffer.allocate(8);
         for (long l = 0; true; l++)
         {
             bb.putLong(0, l);
-            ringBuffer.publishEvent((event, sequence, buffer) -> event.set(buffer.getLong(0)), bb);
+//            translator.onData(bb);
+            producer.onData(bb);
         }
     }
 }
