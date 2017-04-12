@@ -39,6 +39,7 @@
         <module>ApplicationContext</module>
         <module>Security</module>
         <module>Junit</module>
+        <module>redis</module>
     </modules>
 
     <dependencies>
