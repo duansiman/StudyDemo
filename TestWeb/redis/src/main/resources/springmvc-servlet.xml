@@ -9,25 +9,34 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd
         http://www.springframework.org/schema/mvc
-        http://www.springframework.org/schema/mvc/spring-mvc.xsd
-        http://www.springframework.org/schema/p
-        http://www.springframework.org/schema/p/spring-p.xsd">
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <context:component-scan base-package="com.devin.java.redis"/>
     <mvc:annotation-driven />
 
     <bean id="jedisConnFactory"
           class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
-          p:host-name="52.220.16.228"
+          p:host-name="107.174.40.132"
           p:port="6379"
-          p:password=""
-          p:use-pool="true"/>
+          p:password="123456"
+          p:use-pool="true"
+          p:poolConfig-ref="poolConfig"/>
 
-    <!-- redis template definition -->
-    <bean id="redisTemplate"
-          class="org.springframework.data.redis.core.RedisTemplate"
+    <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxTotal" value="10"/>
+        <property name="maxIdle" value="5"/>
+        <property name="maxWaitMillis" value="3000"/>
+    </bean>
+
+    <bean id="stringRedisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate"
           p:connection-factory-ref="jedisConnFactory"/>
 
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate"
+          p:connection-factory-ref="jedisConnFactory"/>
+
+    <bean id="hashOperations" class="org.springframework.data.redis.core.DefaultHashOperations">
+        <constructor-arg name="template" ref="redisTemplate"/>
+    </bean>
 
 
 

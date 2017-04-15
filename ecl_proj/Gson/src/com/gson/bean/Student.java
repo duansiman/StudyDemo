@@ -13,7 +13,7 @@ public class Student {
     }
 
     //是否序列化
-    @Expose(serialize = true)
+    @Expose(serialize = false)
     public String name;
 
     //是否反序列化
