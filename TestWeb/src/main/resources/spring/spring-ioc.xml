@@ -16,4 +16,5 @@
 
     <bean id="greeting" class="com.devin.java.helloworld.Greeting"/>
 
+    <bean id="bar" class="com.devin.java.beans.Baz$Bar"/>
 </beans>
