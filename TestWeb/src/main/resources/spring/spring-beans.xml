@@ -27,17 +27,18 @@
     <!--构造函数实例化-->
     <bean id="userService" class="com.devin.java.service.UserServiceImpl"/>
 
+    <bean id="user" class="com.devin.java.beans.User" name="user2,user3,user4"/>
+
     <!--别名-->
-    <alias name="userService" alias="us"/>
+        <alias name="user" alias="user5"/>
 
     <!--静态工厂实例化-->
     <bean id="userFactory" class="com.devin.java.factory.UserFactory" factory-method="createInstance"/>
 
     <bean id="instanceFactory" class="com.devin.java.factory.InstanceFactory"/>
 
-
     <!--实例工厂实例化-->
-    <bean id="userService2" factory-method="createService" factory-bean="instanceFactory"/>
+    <bean id="userService" factory-method="createService" factory-bean="instanceFactory"/>
 
 
     <!--依赖注入-->
@@ -57,7 +58,7 @@
     <!--c命名空间-->
     <bean id="foo5" class="com.devin.java.beans.Foo" c:baz-ref="baz" c:year="45" c:value="haha"/>
 
-    <bean id="foo3" class="com.devin.java.beans.Foo">
+    <bean id="foo3" class="com.devin.java.beans.Foo" lazy-init="default">
         <!--setter注入-->
         <property name="baz2" ref="baz"/>
     </bean>

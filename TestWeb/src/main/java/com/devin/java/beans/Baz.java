@@ -15,4 +15,6 @@ public class Baz {
     public void setName(String name) {
         this.name = name;
     }
+
+    public static class Bar {}
 }

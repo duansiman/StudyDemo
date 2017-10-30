@@ -21,6 +21,8 @@
         <module>rmi-client</module>
         <module>Concurrent</module>
         <module>JMX</module>
+        <module>struct</module>
+        <module>kotlin</module>
     </modules>
 
     <build>
