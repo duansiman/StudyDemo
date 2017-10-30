@@ -19,6 +19,8 @@
         <module>RMI</module>
         <module>rmi-server</module>
         <module>rmi-client</module>
+        <module>Concurrent</module>
+        <module>JMX</module>
     </modules>
 
     <build>
