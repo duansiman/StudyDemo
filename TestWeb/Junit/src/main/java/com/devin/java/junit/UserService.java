@@ -8,4 +8,6 @@ public interface UserService {
 
     User getUserByName(String name);
 
+    boolean isUser(User user);
+
 }
